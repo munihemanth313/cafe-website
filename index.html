@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Royal Café | Tirupati</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <h2 class="logo">The Royal Café</h2>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+ <section class="hero">
+  <div class="slide active" style="background-image:url('images/hero1.jpg')"></div>
+  <div class="slide" style="background-image:url('images/hero2.jpg')"></div>
+  <div class="slide" style="background-image:url('images/hero3.jpg')"></div>
+
+  <div class="hero-content">
+    <h1>The Royal Café</h1>
+    <p>Fresh coffee. Great food. Right in the heart of Tirupati.</p>
+    <a class="btn" href="#menu">View Menu</a>
+  </div>
+</section>
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <p class="hint">Tap any item to order on WhatsApp</p>
+    <div class="filters">
+      <button class="filter active" data-cat="all">All</button>
+      <button class="filter" data-cat="coffee">Coffee</button>
+      <button class="filter" data-cat="snacks">Snacks</button>
+      <button class="filter" data-cat="desserts">Desserts</button>
+    </div>
+    <div class="menu-grid" id="menuGrid"></div>
+  </section>
+
+  <section id="about" class="section alt">
+    <h2>About Us</h2>
+    <p>The Royal Café serves freshly brewed coffee and homemade snacks in a cozy, elegant space. Come relax, work, or catch up with friends.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Address: Tirupati, Andhra Pradesh</p>
+    <p>Open: 9 AM - 11 PM, every day</p>
+    <a class="btn" id="whatsapp" target="_blank">Order on WhatsApp</a>
+  </section>
+
+  <footer>© 2026 The Royal Café, Tirupati</footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
